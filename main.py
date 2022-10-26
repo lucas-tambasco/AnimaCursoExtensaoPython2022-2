@@ -1,19 +1,12 @@
-# Meu primeiro projeto!
-#
-# print() = comando de saída
-print("Alo mundo!")
+# comando de entrada
+nome = input("Digite seu nome: ")
 
-nome = "Lucas Gomes Tambasco"
-idade = 18
-
+# comando de saida
 print(nome)
 
-print("A minha idade é "+str(idade)+"anos")
-print(f"A minha idade é {idade} anos")
-print("A minha idade é {} anos".format(idade))
+idade = int(input("Digite a sua idade: "))
+print(f"Sua idade é {idade}")
 
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
-
-'''
-Comentario em bloco
-'''
+# mostrar o dobro da idade
+dobro = idade * 2
+print(dobro)
